@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Largest_Number
+class Smallest_Number
 {
 	public static void main(String[] args) 
 	{
@@ -12,15 +12,14 @@ class Largest_Number
 		System.out.print("Enter the Second Number : ");
 		int num2 = input.nextInt();
 
-		int l = ((num1>num2)?num1:num2);
-		System.out.println("The Largest number is : "+l);
+		int smallest = ((num1<num2)?num1:num2);
+		System.out.println("The smallest number is : "+smallest);
 	}
 }
 
 /*
 OUTPUT :-
-
-Enter the first Number : 10
-Enter the Second Number : 11
-The Largest number is : 11
+Enter the first Number : 11
+Enter the Second Number : 12
+The smallest number is : 11
 */
